@@ -3,7 +3,7 @@ layout: post
 title: Power of nonlinearity
 ---
 
-***Skip to the next section if you're unfamiliar with the underlying neural network***
+***Skip to the next section if you're unfamiliar with the underlying neural network mathematics***
 
 The neural network is a fundamental idea that powers many AI systems we have today. It has been scaled up to tackle hard problems such as natural language understanding, object recognition, driving, and many other abilities thought to be exclusive only to humans.
 
@@ -15,7 +15,7 @@ The idea that intelligence is exclusive to a carbon-based neural network such as
 <br>
 The following is a multi-layer feedforward neural network as it is commonly visualized, and how they’re commonly explained:
 
-![Neural net](/assets/images/{{ page.slug }}/nn.png)
+![Neural net](/assets/images/{{ page.slug }}/nn.webp){:loading="lazy"}
 
 A single “neuron” in this network has a “weight” and a “bias”. The neuron takes in a real-valued number as input, and transforms it according to the following equation:
 <div>
@@ -46,21 +46,21 @@ We can combine linear transformations to perform prediction on data.
 
 For example, take the following scatter plot:
 
-![](/assets/images/{{ page.slug }}/plot1.png)
+![](/assets/images/{{ page.slug }}/plot1.webp){:loading="lazy"}
 
 If we wanted to come up with our own series of linear transformations to categorise this data, we might come up with the following:
 
 1. **Rotation** - Imagine the linear boundary between both groups. We rotate the data such that that linear boundary is now horizontal:
 
-    ![](/assets/images/{{ page.slug }}/plot2.png)
+    ![](/assets/images/{{ page.slug }}/plot2.webp){:loading="lazy"}
 
 2. **Translation** - Now, with the rotation being done, our next transformation is not actually a linear transformation, but rather a translation along the y-axis such that both groups are separated by the y-axis, through the use of a bias vector instead of a weight matrix:
 
-    ![](/assets/images/{{ page.slug }}/plot3.png)
+    ![](/assets/images/{{ page.slug }}/plot3.webp)
 
 3. **“Squeeze”** - Now, we use a singular matrix to transform the data from 2D Euclidean space to 1D Euclidean space, preserving the y-coordinate:
 
-    ![](/assets/images/{{ page.slug }}/plot4.png)
+    ![](/assets/images/{{ page.slug }}/plot4.webp){:loading="lazy"}
 
 Now, our hypothetical neural network’s outputs can be easily interpretable - anything less than 0 is part of the “red” class, and anything above 0 is part of the “blue” class.
 
@@ -70,7 +70,7 @@ These three linear transformations don’t need to be in separate layers, either
 
 Not all data is linearly separable by default. For example, observe this scatter plot: 
 
-![](/assets/images/{{ page.slug }}/spiral.png)
+![](/assets/images/{{ page.slug }}/spiral.webp){:loading="lazy"}
 
 There is no obvious linear pattern we can observe here. Therefore, we have to **make** our linear transformations **non-linear**, and we do that by interspersing them with nonlinear functions:
 
@@ -82,7 +82,7 @@ where $$σ$$ is any arbitrary nonlinear function.
 
 With this added functionality, here’s a visualization of how a nonlinear function can **transform** nonlinear data into linear data:
 
-![](/assets/images/{{ page.slug }}/spiral.gif)
+![](/assets/images/{{ page.slug }}/spiral.webm){:loading="lazy"}
 
 Linearly separable data is much easier to deal with!
 
