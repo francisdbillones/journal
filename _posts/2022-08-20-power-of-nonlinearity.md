@@ -82,7 +82,7 @@ where $$σ$$ is any arbitrary nonlinear function.
 
 With this added functionality, here’s a visualization of how a nonlinear function can **transform** nonlinear data into linear data:
 
-![](/assets/images/{{ page.slug }}/spiral.webm){:loading="lazy"}
+![](/assets/images/{{ page.slug }}/spiral.gif){:loading="lazy"}
 
 Linearly separable data is much easier to deal with!
 
