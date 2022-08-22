@@ -20,6 +20,8 @@ compress_html:
   endings: all
   startings: [html, head, body]
 
+google_analytics_id: "G-W21423KMLR"
+
 # assets:
 #   source_maps: true
 #   destination: "/public"
