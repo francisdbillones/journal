@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Power of nonlinearity
+title: power of nonlinearity
 ---
 
 ***Skip to the next section if you're unfamiliar with the underlying neural network mathematics***
