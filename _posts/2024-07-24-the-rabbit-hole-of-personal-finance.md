@@ -16,8 +16,15 @@ That meant that if I simply parked my money in a typical BPI savings account, it
 Of course, I didn't want this to happen. I did more research, and I stumbled upon Maya - a former digital payments-only service known as PayMaya turned digital payments and banking service. I was especially intrigued by the interest rates they were promoting - **3.5%** base interest rate *just* by putting the money into a Maya Savings account.
 
 <details closed>
+<summary>How does Maya offer such a higher rate?</summary>
+Maya Bank is known as a "digital bank", a type of bank that exists completely digitally and operates no physical branches. As such, the costs associated with running physical branches as well as servicing the needs of physical cash such as transporting cash to branches and ATM machines are completely non-existent. This allows Maya to transfer their savings on operating costs to the consumer, in the form of higher interest rates. In the future, if digital banks succeed in dominating a large part of the market, expect rates to lower as the need for customer acquisition lessens.
+</details>
+
+<br>
+
+<details closed>
 <summary>Notes on computation</summary>
-All these figures are computed without considering the 20% tax on interest earnings, as well as inflation rates, mostly because I am lazy.
+The following figures are computed without considering the 20% tax on interest earnings, as well as inflation rates, mostly because I am lazy.
 </details>
 
 | Institution | Account  | Interest Rate | 10-year return on P1m |
