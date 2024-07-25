@@ -21,7 +21,7 @@ $$\begin{aligned}
 \end{aligned}$$
 </div>
 
-and then, using the identity <span>$$\sin^{2}x = 1 - \cos^{2}x$$</span>:
+and then, using the identity <span>$$\sin^{2}x = 1 — \cos^{2}x$$</span>:
 
 <div>
 $$\begin{aligned}
@@ -49,7 +49,7 @@ As for "extensive work", I mean something that requires a CAS to do more than ju
 </details>
 <br>
 
-Conveniently enough, since <span>$$(1 - u^2)^n$$</span> is a binomial, we can simply use the binomial theorem:
+Conveniently enough, since <span>$$(1 — u^2)^n$$</span> is a binomial, we can simply use the binomial theorem:
 
 <div>
 $$\begin{aligned}
@@ -57,7 +57,7 @@ $$\begin{aligned}
 \end{aligned}$$
 </div>
 
-For our binomial <span>$$(1 - u^2)^n$$</span>, <span>$$x$$</span> would correspond to $$1$$, and $$y$$ would correspond to $$-u^2$$:
+For our binomial <span>$$(1 — u^2)^n$$</span>, <span>$$x$$</span> would correspond to $$1$$, and $$y$$ would correspond to $$-u^2$$:
 
 <div>
 $$\begin{aligned}

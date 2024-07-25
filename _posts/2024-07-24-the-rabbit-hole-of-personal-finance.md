@@ -9,11 +9,11 @@ This started with and was a result of finally being able to withdraw all the all
 
 The first place I turned to was BPI Savings. This was the bank my family transacted with for all of their savings accounts, personal loans, business loans, and investments. BPI is a large and ubiquitious bank in the Philippines, so naturally, I wanted to store my money with them.
 
-However, when I looked at the interest rates on their savings accounts, I saw that they were a measley **0.0925%**. Now, when I first saw this figure, it meant nothing to me - I wasn't knowledgeable about typical savings account interest rates. However, I did know that the yearly inflation in the Philippines was well above that. According to the [Philippine Statistics Authority](https://psa.gov.ph/price-indices/cpi-ir)(PSA), the year-to-date headline inflation rate (as of the time of writing) is **3.5%**. That's **37.8** times greater than the interest rate offered by BPI's #SaveUp Peso Savings account.
+However, when I looked at the interest rates on their savings accounts, I saw that they were a measley **0.0925%**. Now, when I first saw this figure, it meant nothing to me — I wasn't knowledgeable about typical savings account interest rates. However, I did know that the yearly inflation in the Philippines was well above that. According to the [Philippine Statistics Authority](https://psa.gov.ph/price-indices/cpi-ir)(PSA), the year-to-date headline inflation rate (as of the time of writing) is **3.5%**. That's **37.8** times greater than the interest rate offered by BPI's #SaveUp Peso Savings account.
 
-That meant that if I simply parked my money in a typical BPI savings account, it would be decaying **37.8** times faster than it would be growing - a mind boggling fact for me. If I did nothing, assuming a **3.5%** inflation rate for **20** years, the value of my cash would be HALVED.
+That meant that if I simply parked my money in a typical BPI savings account, it would be decaying **37.8** times faster than it would be growing — a mind boggling fact for me. If I did nothing, assuming a **3.5%** inflation rate for **20** years, the value of my cash would be HALVED.
 
-Of course, I didn't want this to happen. I did more research, and I stumbled upon Maya - a former digital payments-only service known as PayMaya turned digital payments and banking service. I was especially intrigued by the interest rates they were promoting - **3.5%** base interest rate *just* by putting the money into a Maya Savings account.
+Of course, I didn't want this to happen. I did more research, and I stumbled upon Maya — a former digital payments-only service known as PayMaya turned digital payments and banking service. I was especially intrigued by the interest rates they were promoting — **3.5%** base interest rate *just* by putting the money into a Maya Savings account.
 
 <details closed>
 <summary>How does Maya offer such a higher rate?</summary>
@@ -35,20 +35,20 @@ The following figures are computed without considering the 20% tax on interest e
 | LBP | [ATM Savings Account](https://www.landbank.com/cards/atm-savings-account) | 0.05% | P1,005,011.27 |
 | Maya | [Savings](https://www.mayabank.ph/savings/) | 3.5% | P1,410,598.76 |
 
-On the other hand, we have time deposits. Time deposits are [fixed-income securities](https://www.investopedia.com/terms/f/fixed-incomesecurity.asp) - contracts with a principal, interest rate, and maturity date. In this case, time deposit account owners deposit a principal, from which they receive back in full plus interest by the maturity date. The principal must not be touched by the depositor until the maturity date. Consequences for withdrawal from the time deposit account depend on the product being offered.
+On the other hand, we have time deposits. Time deposits are [fixed-income securities](https://www.investopedia.com/terms/f/fixed-incomesecurity.asp) — contracts with a principal, interest rate, and maturity date. In this case, time deposit account owners deposit a principal, from which they receive back in full plus interest by the maturity date. The principal must not be touched by the depositor until the maturity date. Consequences for withdrawal from the time deposit account depend on the product being offered.
 
 For example, BPI has a number of [time deposit products](https://www.bpi.com.ph/personal/bank/time-deposit-accounts). The simplest [Plan Ahead Time Deposit](https://www.bpi.com.ph/personal/bank/time-deposit-accounts/5-year-plan-ahead) is a 5 year contract with a **P50,000** minimum deposit. Unfortunately, the website delegates interest rate offerings to the individual branches, so one has to consult a branch to find out the interest rate for this product. Another BPI time deposit product, the [Auto Renew Time Deposit](https://www.bpi.com.ph/personal/bank/time-deposit-accounts/peso-auto-renew) has interest rates readily available, however.
 
 | Required Daily Balance to Earn Interest | 35 days | 63 days | 91 days | 182 days | 365 days |
 |-----------------------------------------|---------|---------|---------|----------|----------|
-| Php 50,000 - Php 499,999                | 0.2500% | 0.2500% | 0.3750% | 0.3750%  | 0.5000%  |
-| Php 500,000 - Php 999,999               | 0.3750% | 0.5000% | 0.5000% | 0.5000%  | 0.5000%  |
-| Php 1,000,000 - Php 4,999,999           | 0.3750% | 0.5000% | 0.5000% | 0.5000%  | 0.5000%  |
+| Php 50,000 — Php 499,999                | 0.2500% | 0.2500% | 0.3750% | 0.3750%  | 0.5000%  |
+| Php 500,000 — Php 999,999               | 0.3750% | 0.5000% | 0.5000% | 0.5000%  | 0.5000%  |
+| Php 1,000,000 — Php 4,999,999           | 0.3750% | 0.5000% | 0.5000% | 0.5000%  | 0.5000%  |
 | Php 5,000,000 and above                 | 0.5000% | 0.6250% | 0.6250% | 0.7500%  | 0.7500%  |
 
-As one can see, the maximum interest one can earn from this time deposit product is **0.75%**, available only through a 1-year maturity period on a Php **5,000,000** balance. This is not a small chunk of change, especially with Philippine wages. According to the [PSA](https://psa.gov.ph/statistics/occupational-wages-survey), the average wage in 2022 was P**18,423**. Forget saving - to even earn P5m on that kind of wage, one needs to work for 22.6 years.
+As one can see, the maximum interest one can earn from this time deposit product is **0.75%**, available only through a 1-year maturity period on a Php **5,000,000** balance. This is not a small chunk of change, especially with Philippine wages. According to the [PSA](https://psa.gov.ph/statistics/occupational-wages-survey), the average wage in 2022 was P**18,423**. Forget saving — to even earn P5m on that kind of wage, one needs to work for 22.6 years.
 
-Meanwhile, Maya's [Time Deposit Plus](https://support.maya.ph/s/article/How-much-interest-will-my-money-earn-with-Time-Deposit-Plus) product offers **5.5%**, **6%**, and **5.75%** interest rate based on maturity periods of 3/6/12 months, with a deposit amount of P**5,000** - P**1,000,000**. Additionally, one can open 5 Time Deposit Plus accounts on a single Maya account to effectively earn **6%** interest on a maximum of Php **5,000,000**. This is a much more flexible product than BPI's, and it offers massively higher returns.
+Meanwhile, Maya's [Time Deposit Plus](https://support.maya.ph/s/article/How-much-interest-will-my-money-earn-with-Time-Deposit-Plus) product offers **5.5%**, **6%**, and **5.75%** interest rate based on maturity periods of 3/6/12 months, with a deposit amount of P**5,000** — P**1,000,000**. Additionally, one can open 5 Time Deposit Plus accounts on a single Maya account to effectively earn **6%** interest on a maximum of Php **5,000,000**. This is a much more flexible product than BPI's, and it offers massively higher returns.
 
 <details closed>
 <summary>Maya Time Deposit Plus technicality</summary>
@@ -62,7 +62,7 @@ Another product is the [Modified Pag-IBIG II Savings](https://www.pagibigfund.go
 
 [Retail Treasury Bonds 30](https://www.treasury.gov.ph/wp-content/uploads/2024/02/RTB-30-Flyer.pdf) (RTB30), on the other hand, is a fixed-income security based on [treasury bonds](https://www.pnb.com.ph/index.php/investment-opportunities/treasury-bonds). They have a 5-year maturity period and offer a fixed rate of **6.25%** annual return. You deposit the principal once, and interest is credited to you quarterly until the bond matures.
 
-RTB30s have the advantage of being fixed-rate and essentially zero-risk - after all, they quite literally represent debt the government owes you. If the Republic of the Philippines is unable to pay off its debt to you, well, the Republic has fallen, and there is no use dabbling and worrying about fancy financial instruments when your country has already collapsed.
+RTB30s have the advantage of being fixed-rate and essentially zero-risk — after all, they quite literally represent debt the government owes you. If the Republic of the Philippines is unable to pay off its debt to you, well, the Republic has fallen, and there is no use dabbling and worrying about fancy financial instruments when your country has already collapsed.
 
 A fixed return of **6.25%** offers a clearer picture of the gains one can make, as opposed to a product like MP2. It is important to note however that MP2, being backed by Pag-IBIG, is still relatively low-risk and less volatile than commodities and stocks.
 
