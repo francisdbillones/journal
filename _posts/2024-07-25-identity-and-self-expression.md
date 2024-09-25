@@ -37,7 +37,7 @@ Now, complexity and confusion arises when self-expression is derived not from th
 
 There may be weak connections between those traits and the original ideas Tate expresses — speaking in a bold, arrogant manner may represent the idea of male strength that Tate values. 
 
-However, it is here where stereotypes and the value of inferring a person's personality and values from their outward self-expression start to be prove less useful. It is here where stereotypes do the most damage. 
+However, it is here where stereotypes and the value of inferring a person's personality and values from their outward self-expression start to prove less useful. It is here where stereotypes do the most damage. 
 
 When expressions of values start to detach from the values themselves, unnecessary false equivalence and self-limitation occurs. 
 
