@@ -5,3 +5,7 @@ body {
 table {
     background-color: whitesmoke;
 }
+
+hr {
+    border-top: 1px solid black;
+}
