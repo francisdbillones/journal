@@ -1,6 +1,13 @@
-body {
+body,
+footer {
     background-color: #fff8df;
+    background-image: url('/assets/images/blended_papyrus.jpg');
+    background-blend-mode: hard-light;
 }
+
+/* div.post {
+    background-color: #fff8df;
+} */
 
 table {
     background-color: whitesmoke;

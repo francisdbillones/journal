@@ -3,6 +3,8 @@ layout: post
 title: trivial math boredom
 ---
 
+![](/assets/images/trivial-math-boredom/saint-lucy.png)
+
 Let's say you wanted to compute for the following integral:
 
 <div>
@@ -25,7 +27,7 @@ and then, using the identity <span>$$\sin^{2}x = 1 — \cos^{2}x$$</span>:
 
 <div>
 $$\begin{aligned}
-\int \sin^{2n}(x)\sin(x) \, \mathrm{d}x = 
+\int \sin^{2n}(x)\sin(x) \, \mathrm{d}x =
 \int (\sin^{2}(x))^{n}\sin(x) \, \mathrm{d}x =
 \int (1-\cos^{2}(x))^{n}\sin(x) \, \mathrm{d}x
 \end{aligned}$$
@@ -35,7 +37,7 @@ Then, we can set <span>$$u = \cos x, \mathrm{d}u = -\sin{x}\mathrm{d}x$$</span>:
 
 <div>
 $$\begin{aligned}
-\int (1-\cos^{2}(x))^{n}\sin(x) \, \mathrm{d}x = 
+\int (1-\cos^{2}(x))^{n}\sin(x) \, \mathrm{d}x =
 -\int (1-u^{2})^{n} \, \mathrm{d}u
 \end{aligned}$$
 </div>
