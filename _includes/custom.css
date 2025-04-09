@@ -1,7 +1,6 @@
 body,
 footer {
     background-color: #fff8df;
-    background-image: url('/assets/images/blended_papyrus.jpg');
     background-blend-mode: hard-light;
 }
 
