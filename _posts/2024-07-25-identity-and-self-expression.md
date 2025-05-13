@@ -33,7 +33,7 @@ In a typical prisoners' dilemma type scenario, the optimal action is always to n
 
 Since stereotypes are a tool for us to infer characteristics of a person from their other tendencies, if a person has a desire to be perceived as having certain characteristics that they deem desirable themselves, they will then adjust themselves to conform to "stereotypes", ideas, and molds that are associated with those characteristics. For example, someone that values modesty, minimalism, and humility may express those values in the way they dress. This is the simplest form of self-expression — directly connecting ones actions to the values one holds.
 
-Error arises when we start confusing expressions of values with the values themselves.
+The error comes when we confuse expressions of values with the values themselves.
 
 For example, take Andrew Tate, an internet personality most known for his pro-male beliefs. Someone that aligns with Tates' views on mens' role in society, may, in a subconscious attempt to express their ideology, adopt other traits of Tate that aren't necessarily connected to Tates' original ideas; namely, his mannerisms, the way he dresses, and his obsession with Bugattis. 
 
