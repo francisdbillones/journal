@@ -1,6 +1,9 @@
 ---
 layout: post
 title: identity and self expression
+tags:
+  - opinion
+  - culture
 ---
 
 ![](/assets/images/{{ page.slug }}/the-wolf-of-wall-street.jpg)

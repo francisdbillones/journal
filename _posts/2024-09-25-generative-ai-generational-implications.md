@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "generative ai: generational implications"
+tags:
+  - opinion
+  - technology
+  - generative-ai
 ---
 
 *Special thanks to E.J.M.M for contributing to this article*

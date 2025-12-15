@@ -1,6 +1,8 @@
 ---
 layout: post
 title: the hedonic treadmill
+tags:
+    - opinion
 ---
 
 Greenland is arguably one of the most beautiful countries on Earth. It's home to some of the [beautiful icy landscapes](https://kids.nationalgeographic.com/geography/countries/article/greenland) and picturesque cities, and has the lowest population density of any country. Life in Greenland is peaceful, calm, quiet — a tranquil oasis in the desert of modern excess.

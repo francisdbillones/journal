@@ -1,6 +1,8 @@
 ---
 layout: post
 title: the smartphone software scene is a joke
+tags:
+    - technology
 ---
 
 The smartphone as it exists today is a cornerstone of society. Everyone that isn't an extremist, in crippling poverty, or a child, has one. So why is smartphone software so bad?

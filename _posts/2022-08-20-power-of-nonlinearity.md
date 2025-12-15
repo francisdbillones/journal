@@ -1,6 +1,9 @@
 ---
 layout: post
 title: power of nonlinearity
+tags:
+    - technology
+    - math
 ---
 
 ***Skip to the next section if you're unfamiliar with the underlying neural network mathematics***

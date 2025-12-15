@@ -1,6 +1,9 @@
 ---
 layout: post
 title: drive and meaning
+tags:
+    - opinion
+    - life
 ---
 
 If you asked me a year ago what my purpose in life was, I would've told you that I wanted to build great and cool things (greatness is optional — coolness is required). I would've told you that the driving force behind my existence was to joust with interesting intellectual challenges that the universe likes to throw at humanity. I wanted to be on the frontlines of history, to create things that impact as many human lives as possible. I didn't necessarily want to be remembered, but to live my life in a manner in which I die peacefully, knowing I lived as much as I could.

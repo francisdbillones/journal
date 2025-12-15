@@ -1,6 +1,9 @@
 ---
 layout: post
-title: unqualified and unpolished thoughts on capitalism
+title: tiny rant on capitalism
+tags:
+  - opinion
+  - culture
 ---
 
 tl;dr: capitalism is not inherently flawed, and pursuing profits is not inherently evil.

@@ -5,3 +5,78 @@ layout: stylesheet
 body {
     background-color: #fff8df;
 }
+
+.tag-list {
+    list-style: none;
+    margin: 0 0 1rem 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag-list li {
+    margin: 0;
+}
+
+.tag-list a {
+    background-color: #f5cf6f;
+    border-radius: 999px;
+    color: #222;
+    display: inline-block;
+    font-size: 0.85rem;
+    padding: 0.2rem 0.75rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.tag-list a:hover {
+    background-color: #f1b92c;
+}
+
+.post-tags-inline {
+    font-size: 0.85rem;
+    color: #8a8a8a;
+    font-style: italic;
+}
+
+.post-tags-inline a {
+    color: #8a8a8a;
+    text-decoration: none;
+}
+
+.post-tags-inline a:hover {
+    text-decoration: underline;
+}
+
+.post-tags-inline::before {
+    content: "\2014 ";
+}
+
+.tag-page h1 {
+    margin-bottom: 1rem;
+}
+
+.tag-posts {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tag-posts li {
+    margin-bottom: 0.75rem;
+}
+
+.tag-cta {
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.tag-cta a {
+    color: #8a5d00;
+    font-weight: 600;
+}
+
+.post-summary {
+    margin-bottom: 2.5rem;
+}

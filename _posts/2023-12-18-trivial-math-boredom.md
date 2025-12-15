@@ -1,6 +1,8 @@
 ---
 layout: post
 title: trivial math boredom
+tags:
+    - math
 ---
 
 ![](/assets/images/trivial-math-boredom/saint-lucy.png)

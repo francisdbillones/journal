@@ -1,6 +1,8 @@
 ---
 layout: post
 title: the rabbit hole of personal finance
+tags:
+    - life
 ---
 
 Recently, I've become semi-obsessed (slight exaggeration) with finance topics.
