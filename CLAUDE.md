@@ -145,7 +145,7 @@ Output goes to `_site/`.
 Pushing to the `main` branch triggers the GitHub Actions workflow (`.github/workflows/jekyll.yml`), which:
 
 1. Checks out the repo
-2. Sets up Ruby 3.1 with bundler cache
+2. Sets up Ruby 3.3 with bundler cache
 3. Runs `bundle exec jekyll build` with `JEKYLL_ENV=production`
 4. Uploads the `_site/` directory as a Pages artifact
 5. Deploys to GitHub Pages
