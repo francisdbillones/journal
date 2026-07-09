@@ -4,13 +4,19 @@ title: Home
 ---
 
 <div class="posts">
+  <p class="tag-cta">
+    <a href="{{ '/tags/' | relative_url }}" style="color:gray">Browse by tags &rarr;</a>
+  </p>
+
   {% for post in site.posts %}
+  <article class="post-summary">
     <h3 class="post-title">
-      <a href="{{ post.url | absolute_url }}">
+      <a href="{{ post.url | relative_url }}">
         {{ post.title }}
       </a>
     </h3>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
+  </article>
   {% endfor %}
 </div>

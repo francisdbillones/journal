@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="tag-page">
+  <h1>#{{ page.tag }}</h1>
+  {% assign tagged_posts = site.tags[page.tag] | sort: 'date' | reverse %}
+  <ul class="tag-posts">
+    {% for post in tagged_posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span class="post-date">{{ post.date | date_to_string }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

@@ -1,3 +1,17 @@
-body {
+body,
+footer {
     background-color: #fff8df;
+    background-blend-mode: hard-light;
+}
+
+/* div.post {
+    background-color: #fff8df;
+} */
+
+table {
+    background-color: whitesmoke;
+}
+
+hr {
+    border-top: 1px solid black;
 }
