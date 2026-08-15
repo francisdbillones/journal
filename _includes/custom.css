@@ -8,7 +8,7 @@
     --muted-color: #727272;
     --subtle-color: #99917e;
     --border-color: #d8cfb4;
-    --link-color: rgb(30, 115, 175);
+    --link-color: rgb(34, 80, 65);
     --code-color: #a64e57;
     color-scheme: light;
 }
@@ -23,7 +23,7 @@
     --muted-color: #b8ae92;
     --subtle-color: #9c9279;
     --border-color: #514a37;
-    --link-color: #72b8e8;
+    --link-color: rgb(102, 166, 135);
     --code-color: #e59aa1;
     color-scheme: dark;
 }
