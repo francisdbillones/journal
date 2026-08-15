@@ -2,6 +2,8 @@
 layout: post
 title: context rot
 tags:
+    - generative-ai
+    - technology
 ---
 
 I've been working a lot more with agents recently, and developing my own theory of mind as a result.
