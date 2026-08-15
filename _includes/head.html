@@ -1,7 +1,5 @@
 {% capture styles %}
 {% include poole.css %}
-{% include syntax.css %}
-{% include lanyon.css %}
 {% include custom.css %}
 {% include font.css %}
 {% endcapture %}
@@ -10,6 +8,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ site.description }}">
+  <meta name="color-scheme" content="light dark">
+
+  <script>
+    (function () {
+      var savedTheme;
+
+      try {
+        savedTheme = localStorage.getItem('theme');
+      } catch (error) {
+        savedTheme = null;
+      }
+
+      if (savedTheme !== 'light' && savedTheme !== 'dark') savedTheme = null;
+
+      var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.dataset.theme = savedTheme || (prefersDark ? 'dark' : 'light');
+    }());
+  </script>
 
   <title>
     {% if page.title == "Home" %}
@@ -34,6 +50,8 @@
 
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/atom.xml' | absolute_url }}">
 
+  <script defer src="{{ '/public/js/theme.js' | relative_url }}"></script>
+
   {% if site.google_analytics_id %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"></script>
 
@@ -46,5 +64,7 @@
   </script>
   {% endif %}
 
+  {% if page.math %}
   <script id="MathJax-script" async defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"></script>
+  {% endif %}
 </head>

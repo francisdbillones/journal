@@ -1,6 +1,7 @@
 ---
 layout: post
 title: trivial math boredom
+math: true
 tags:
     - math
 ---

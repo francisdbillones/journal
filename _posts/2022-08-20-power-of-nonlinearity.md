@@ -1,6 +1,7 @@
 ---
 layout: post
 title: power of nonlinearity
+math: true
 tags:
     - technology
     - math
