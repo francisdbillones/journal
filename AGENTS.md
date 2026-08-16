@@ -1,10 +1,10 @@
-# CLAUDE.md
+# AGENTS.md
 
 This file describes the codebase for AI coding assistants.
 
 ## Project Overview
 
-This is a personal blog/journal site for Francis Billones, hosted at [journal.francisdb.net](https://journal.francisdb.net). It is a static site built with **Jekyll 4.3** and themed with a customised version of the [Lanyon](http://lanyon.getpoole.com) / [Poole](https://github.com/poole/poole) theme.
+This is a personal blog/journal site for Francis Billones, hosted at [journal.francisdb.net](https://journal.francisdb.net). It is a static site built with **Jekyll 4** and a heavily customised version of the [Poole](https://github.com/poole/poole) theme. Some legacy Lanyon assets remain in the repository but are not part of the active layout.
 
 Posts cover topics like technology, math, finance, society, and philosophy.
 
@@ -12,10 +12,10 @@ Posts cover topics like technology, math, finance, society, and philosophy.
 
 | Layer | Technology |
 |---|---|
-| Static site generator | Jekyll ~> 4.3 |
+| Static site generator | Jekyll `~> 4.3` (currently locked to 4.4.x) |
 | Language (plugins) | Ruby |
 | Templating | Liquid |
-| Styling | SCSS (inline via `scssify` filter) |
+| Styling | CSS/SCSS (inlined via the `scssify` filter) |
 | Fonts | Google Fonts – Lora |
 | Math rendering | MathJax 3.2.2 |
 | Feed | Atom (`atom.xml`) |
@@ -49,12 +49,12 @@ journal/
 │   └── stylesheet.css        # (unused/legacy)
 │
 ├── _includes/
-│   ├── head.html             # <head> tag: meta, styles, fonts, analytics, MathJax
-│   ├── sidebar.html          # Toggleable sidebar nav (from Lanyon)
+│   ├── head.html             # <head>: metadata, inline styles, theme setup, analytics, optional MathJax
+│   ├── sidebar.html          # Legacy Lanyon sidebar; not included by the active layout
 │   ├── poole.css             # Base Poole theme styles
 │   ├── lanyon.css            # Lanyon sidebar/theme styles
 │   ├── syntax.css            # Code syntax highlighting
-│   ├── custom.css            # Site-specific overrides (warm #fff8df background)
+│   ├── custom.css            # Active site styles, including light/dark themes
 │   └── font.css              # Font declarations
 │
 ├── _plugins/
@@ -63,8 +63,8 @@ journal/
 ├── tags/
 │   └── index.html            # Tags browse/index page
 │
-├── public/                   # Static assets (favicon, legacy CSS/JS)
-├── assets/                   # Additional assets (images, CSS)
+├── public/                   # Favicons, active theme-toggle JS, and legacy CSS
+├── assets/                   # Post images and duplicate/legacy CSS assets
 │
 ├── _site/                    # Jekyll build output (do not edit)
 └── .github/
@@ -93,8 +93,9 @@ tags:
 ```
 
 - **Tags** are free-form strings. The `tag_generator.rb` plugin automatically creates a page at `/tags/<slugified-tag>/` for every unique tag used across posts.
-- Posts support **MathJax** (LaTeX math rendering) out of the box — just write `$...$` or `$$...$$`.
+- MathJax is loaded only when a post sets `math: true` in its front matter. On those pages, use `$...$` or `$$...$$` for LaTeX math.
 - HTML `<details>` elements are used in some posts for collapsible sections.
+- Drafts live in `drafts/`, not Jekyll's special `_drafts/` directory, so they are not included in normal builds.
 
 ## Layouts Hierarchy
 
@@ -108,13 +109,15 @@ compress.html        ← outermost: strips whitespace from HTML output
 
 ## Styling
 
-All CSS is **inlined into `<head>`** at build time via Liquid `{% include %}` + `scssify` filter. No external stylesheet requests are made (except Google Fonts). The CSS stack (in order):
+The active CSS is **inlined into `<head>`** at build time via Liquid `{% include %}` + the `scssify` filter. The active stack, in order, is:
 
 1. `poole.css` — base typography, layout, reset
-2. `syntax.css` — rouge syntax highlighting
-3. `lanyon.css` — sidebar, masthead, toggleable nav
-4. `custom.css` — site-specific overrides (warm cream `#fff8df` background)
-5. `font.css` — font-face declarations
+2. `custom.css` — site-specific layout plus light/dark theme variables
+3. `font.css` — font declarations
+
+Google Fonts is the only external stylesheet. `_includes/lanyon.css`, `_includes/syntax.css`, `assets/css/`, and most of `public/css/` are currently legacy or duplicate assets; editing them does not change the rendered site unless they are explicitly included again.
+
+The theme is initialized inline in `_includes/head.html` to avoid a flash of the wrong color scheme. `public/js/theme.js` handles the toggle, persists the user's choice in `localStorage`, and follows system preference until the user makes a selection.
 
 ## Development
 
@@ -131,6 +134,12 @@ bundle exec jekyll serve
 ```
 
 The site will be available at `http://localhost:4000`.
+
+To include files from `drafts/` during local preview, run:
+
+```bash
+bundle exec jekyll serve --unpublished
+```
 
 ### Building for production
 
@@ -156,9 +165,16 @@ The live site is served from the custom domain `journal.francisdb.net` (configur
 
 | Key | Value |
 |---|---|
-| `title` | `the journal of francis billones` |
+| `title` | `journal.francisdb.net` |
 | `url` | `https://journal.francisdb.net` |
 | `google_analytics_id` | `G-W21423KMLR` |
 | `compress_html` | Enabled (strips comments, whitespace, optional tags) |
 | `sass.style` | `compressed` |
 | Plugin | `jekyll-feed` |
+
+## Change Guidelines
+
+- Edit source files, never generated output in `_site/`.
+- Treat `_includes/poole.css`, `_includes/custom.css`, and `_includes/font.css` as the active stylesheet sources; confirm `_includes/head.html` before modifying similarly named copies elsewhere.
+- Preserve existing post URLs by keeping published post filenames stable.
+- After layout, plugin, configuration, or styling changes, run `bundle exec jekyll build` and resolve any build errors before finishing.
