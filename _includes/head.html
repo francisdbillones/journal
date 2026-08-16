@@ -35,32 +35,49 @@
     {% endif %}
   </title>
 
-  {% if page.url and site.baseurl %}
+  {% if page.url %}
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   {% endif %}
 
   <style> {{ styles | scssify }} </style>
 
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.base_url }}/public/apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" href="{{ '/public/favicon.ico' | absolute_url }}">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <link rel="preload" href="{{ '/public/fonts/lora-latin-variable.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ '/public/apple-touch-icon-precomposed.png' | relative_url }}">
+  <link rel="shortcut icon" href="{{ '/public/favicon.ico' | relative_url }}">
 
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/atom.xml' | absolute_url }}">
 
   <script defer src="{{ '/public/js/theme.js' | relative_url }}"></script>
 
   {% if site.google_analytics_id %}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"></script>
-
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    (function (window, document) {
+      var loaded = false;
+      var events = ['pointerdown', 'keydown', 'touchstart'];
 
-    gtag('config', '{{ site.google_analytics_id }}');
+      function loadAnalytics() {
+        if (loaded) return;
+        loaded = true;
+
+        events.forEach(function (eventName) {
+          window.removeEventListener(eventName, loadAnalytics);
+        });
+
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function () { window.dataLayer.push(arguments); };
+        window.gtag('js', new Date());
+        window.gtag('config', '{{ site.google_analytics_id }}');
+
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}';
+        document.head.appendChild(script);
+      }
+
+      events.forEach(function (eventName) {
+        window.addEventListener(eventName, loadAnalytics, { once: true, passive: true });
+      });
+    }(window, document));
   </script>
   {% endif %}
 

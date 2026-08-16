@@ -1,1 +1,15 @@
-/* Font definitions removed in favor of Google Fonts Lora */
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("{{ '/public/fonts/lora-latin-variable.woff2' | relative_url }}") format("woff2");
+}
+
+@font-face {
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("{{ '/public/fonts/lora-latin-variable-italic.woff2' | relative_url }}") format("woff2");
+}

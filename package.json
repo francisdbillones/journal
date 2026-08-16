@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "bundle exec jekyll build",
+    "prelighthouse": "JEKYLL_ENV=production bundle exec jekyll build",
+    "lighthouse": "node scripts/lighthouse.mjs"
+  },
+  "devDependencies": {
+    "chrome-launcher": "^1.2.1",
+    "lighthouse": "^13.4.1"
+  }
+}
