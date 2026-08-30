@@ -5,9 +5,9 @@ tags:
     - technology
 ---
 
-I'm currently daily driving an iPhone 14 Pro, and also own a Pixel 9a.
+I'm currently daily driving an iPhone 14 Pro.
 
-I like the 14 Pro because it's a "small" phone. The base iPhone 17, Pixel 9a and 10, and Galaxy S26 all have 6.3 inch displays. The most recent iPhone with a sub-6 inch display was the 13 mini, with a 5.4 inch screen and a body that sat in between the 5s and 6.
+I like the 14 Pro because it's a "small" phone, with its 6.1 inch display. The base iPhone 17, Pixel 10, and Galaxy S26 all have 6.3 inch displays. The most recent iPhone with a sub-6 inch display was the 13 mini, with a 5.4 inch screen and body dimensions that sat in between the 5s and 6.
 
 That means it has been 5 generations since Apple has released a designated "small" phone. Makes sense for them, honestly. Market data has shown that the 12 and 13 mini sold like hot shit, emphasis on shit. Unfortunately, the audience for small phones is clearly not very large.
 
