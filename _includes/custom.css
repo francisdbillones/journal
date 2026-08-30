@@ -43,6 +43,12 @@ footer {
     background-color: var(--page-background);
 }
 
+.post-contact-note {
+    color: var(--subtle-color);
+    font-size: .8em;
+    font-style: italic;
+}
+
 h1,
 h2,
 h3,
