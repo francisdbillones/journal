@@ -42,6 +42,6 @@ What makes this interesting at all to talk about are two things:
 
 It's extremely fun to play around with your beliefs once this comes natural to you. Any feeling, however ordinary or mundane, can be subject to rigorous examination, and the results are sometimes incredibly amusing. I've long been aware of my aversion to the particular brand of cleaner that I use in my bathroom, not even because of how it smells — it's lemon-scented, and it objectively smells good. No, the real reason is rather funny — it's because bathroom cleaning is a chore!
 
-This comes naturally when thinking about prejudice. The solution to getting rid of prejudical beliefs is to simply give your brain the opportunity to wire new associations. This is why representation matters. It's the same idea as the bathroom cleaner!
+People have known this for a long time with respect to prejudice. The solution to getting rid of prejudical beliefs is to simply give your brain the opportunity to wire new associations. This is why representation matters. It's the same idea as the bathroom cleaner!
 
 Think about all the beliefs that have restricted you, such as that you are not a public speaker, or that you are afraid of heights. Your brain is extremely malleable. If you can reason about your beliefs and why they were formed, then you can control your beliefs, and as a result, you can control your mind.
