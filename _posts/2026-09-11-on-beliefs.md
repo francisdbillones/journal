@@ -29,6 +29,11 @@ Inherent beliefs are easy to think about, and I don't think there is anything in
 
 Formed beliefs are a much tastier branch to munch on. These are secondary to inherent beliefs, and are a low-resolution, crude approximation of a belief that your brain forms because it's constantly trying to get you to satisfy your inherent beliefs. Work or school may make you stressed because you might not be good at your job, or you might not understand what is being taught, and if you traverse the sequence of causes and effects you arrive at an inherent belief: social rejection, lack of food, etc. Thunderstorms can then tell a very different story depending on how your inherent beliefs are affected. If you are a student, chances are you're delighted, or at least indifferent. If you are a worker depending on that day's salary, then you look at the weather report with despair, and the sounds of rain droplets may not be as relaxing for you anymore.
 
+<figure>
+  <img src="/assets/images/{{ page.slug }}/parasite.webp" alt="Parasite">
+  <figcaption>Infamous scene from <i>Parasite</i>, 2019. Caption not needed.</figcaption>
+</figure>
+
 It is in this line of reasoning that I (and emotivism) claim that there is no point to debating about morals. In this model, everything is downstream of inherent beliefs, and inherent beliefs are out of our control. There is no difference between a person acting on an inherent belief you find to be wrong, and them breathing.
 
 What makes this interesting at all to talk about are two things:
