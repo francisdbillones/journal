@@ -7,7 +7,7 @@ tags:
     - math
 ---
 
-***Skip to the next section if you're unfamiliar with the underlying neural network mathematics***
+***Skip to the [next section](#why-linear-transformations-are-useful) if you're familiar with the underlying neural network mathematics***
 
 The neural network is a fundamental idea that powers many AI systems we have today. It has been scaled up to tackle hard problems such as natural language understanding, object recognition, driving, and many other abilities thought to be exclusive only to humans.
 
